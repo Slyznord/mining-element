@@ -1,0 +1,74 @@
+[
+	{
+		"title": "Risk of Loss",
+		"values": [
+			{
+				"name": "Employee",
+				"value": 40
+			},
+			{
+				"name": "Employee",
+				"value": 40
+			},
+			{
+				"name": "Employee",
+				"value": 20
+			}
+		],
+		"total": 120
+	},
+	{
+		"title": "Satisfaction",
+		"values": [
+			{
+				"name": "Employee",
+				"value": 76
+			},
+			{
+				"name": "Employee",
+				"value": 21
+			},
+			{
+				"name": "Employee",
+				"value": 5
+			}
+		],
+		"total": 120
+	},
+	{
+		"title": "Impact of Loss",
+		"values": [
+			{
+				"name": "Employee",
+				"value": 54
+			},
+			{
+				"name": "Employee",
+				"value": 32
+			},
+			{
+				"name": "Employee",
+				"value": 21
+			}
+		],
+		"total": 120
+	},
+	{
+		"title": "Performance",
+		"values": [
+			{
+				"name": "Employee",
+				"value": 40
+			},
+			{
+				"name": "Employee",
+				"value": 40
+			},
+			{
+				"name": "Employee",
+				"value": 40
+			}
+		],
+		"total": 120
+	}
+]
