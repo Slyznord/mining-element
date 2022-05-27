@@ -43,7 +43,8 @@ export default {
     }
   },
   async mounted () {
-    this.indicators = await axios.get('/data.json').then(res => res.data)
+    const baseURL = process.env.NODE_ENV === 'production' ? '/mining-element/data.json' : '/data.json'
+    this.indicators = await axios.get(baseURL).then(res => res.data)
   }
 }
 </script>
