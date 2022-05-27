@@ -1,0 +1,29 @@
+@import '../variables';
+
+.hint {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: calc(100% + 40px);
+  transition: .4s ease-in-out;
+
+  &__p {
+    font-size: .85rem;
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap;
+
+    &_bold {
+      font-weight: 700;
+    }
+
+    &_text-primary {
+      color: $text-primary;
+    }
+  }
+}
